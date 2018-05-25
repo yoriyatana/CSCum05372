@@ -33,5 +33,22 @@ Process 'view-logprocessor' not monitored
 Then restart the log collector:
 ```
 # acs start view-collector
+# acs start view-logprocessor
 ```
 Then wait until all of the services are running, and verify that activity is being logged.
+```
+# show app status acs
+
+ACS role: PRIMARY
+
+Process 'database' running
+Process 'management' running
+Process 'runtime' running
+Process 'adclient' running
+Process 'ntpd' running
+Process 'view-database' running
+Process 'view-jobmanager' running
+Process 'view-alertmanager' running
+Process 'view-collector' running
+Process 'view-logprocessor' running
+```
