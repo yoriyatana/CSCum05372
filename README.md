@@ -52,3 +52,7 @@ Process 'view-alertmanager' running
 Process 'view-collector' running
 Process 'view-logprocessor' running
 ```
+--------------------------------------------------------------------------------------------
+## Source
+
+* https://supportforums.cisco.com/t5/aaa-identity-and-nac/acs-5-5-does-not-show-accounting-log-messages/td-p/2464785
